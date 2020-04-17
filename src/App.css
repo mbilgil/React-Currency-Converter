@@ -2,27 +2,34 @@ body {
   margin: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
   min-height: 100vh;
   text-align: center;
 }
 
+
+.d-inline-block {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
 h1{
-  margin: 0;
-  margin-bottom: .5rem;
+  margin-top: 10px;
+  font-size: 5rem;
+  border-radius: .3em;
+  background-color:#ffe0b2 ;
 }
 
 .input {
   border : 1px solid #333;
   border-radius: .3em;
   padding: .25rem;
-  margin-bottom: 10px;
   width: 7em;
 }
 
 select{
   margin-left: .10rem;
   margin-top: 10px;
+  background-color: aquamarine;
 }
 
 
