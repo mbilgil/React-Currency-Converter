@@ -60,6 +60,13 @@ const App = () => {
 
   return (
     <div className="App">
+      <img
+        alt=""
+        src="/img/exchange.png"
+        width="128"
+        height="128"
+        className="d-inline-block align-top"
+      />
       <h1>Convert</h1>
       <CurrencyRow
         currencyOptions={currencyOptions}
